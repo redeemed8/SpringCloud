@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2cef6693-c30b-488b-b170-27532a4f3c64" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Maven3.5.4/apache-maven-3.5.4" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Uk76jbZ0fwOd6aEUGWoi1sHsz1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/protjct/jjj/_SpringCloud_1_/feign-api/src/main/java/com/jchhh/feign&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;service.view.auto.scroll.to.source&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.常规&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f1d28cf6b35892e59bcbc930be5d7b93&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\protjct\jjj\_SpringCloud_1_\feign-api\src\main\java\com\jchhh\feign" />
+      <recent name="D:\protjct\jjj\_SpringCloud_1_\order-service\src\main\java\com\jchhh\order" />
+      <recent name="D:\protjct\jjj\_SpringCloud_1_\user-service\src\main\java\com\jchhh\user\web" />
+      <recent name="D:\protjct\jjj\_SpringCloud_1_\user-service\src\main\java\com\jchhh\user\service" />
+      <recent name="D:\protjct\jjj\_SpringCloud_1_\user-service\src\main\java\com\jchhh\user\mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\protjct\jjj\_SpringCloud_1_\user-service\src\main\java\com\jchhh\user\pojo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jchhh.order.config" />
+      <recent name="com.jchhh.feign.pojo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderApplication">
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jchhh.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jchhh.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" nameIsGenerated="true">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jchhh.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jchhh.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jchhh.user.UserApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8082" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jchhh.user.UserApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8083" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.UserApplication3" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.UserApplication2" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="2cef6693-c30b-488b-b170-27532a4f3c64" name="变更" comment="" />
+      <created>1693471558442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693471558442</updated>
+      <workItem from="1693471559799" duration="78000" />
+      <workItem from="1693471645291" duration="2404000" />
+      <workItem from="1693474068401" duration="6971000" />
+      <workItem from="1693489607687" duration="1000" />
+      <workItem from="1693489660236" duration="5750000" />
+      <workItem from="1693495427634" duration="11000" />
+      <workItem from="1693526397320" duration="13518000" />
+      <workItem from="1693545835420" duration="51000" />
+      <workItem from="1693545916171" duration="418000" />
+      <workItem from="1693546465918" duration="309000" />
+      <workItem from="1693581045051" duration="294000" />
+      <workItem from="1693622790305" duration="4093000" />
+      <workItem from="1693656393689" duration="2293000" />
+      <workItem from="1693710416707" duration="5507000" />
+      <workItem from="1693716575188" duration="3671000" />
+      <workItem from="1693739626923" duration="2411000" />
+      <workItem from="1693744323973" duration="1346000" />
+      <workItem from="1693820937119" duration="303000" />
+      <workItem from="1693821679295" duration="53000" />
+      <workItem from="1693822791115" duration="11000" />
+      <workItem from="1693823594531" duration="4000" />
+      <workItem from="1693823845906" duration="40000" />
+      <workItem from="1693825583047" duration="28000" />
+      <workItem from="1693825855467" duration="77000" />
+      <workItem from="1693826286864" duration="20000" />
+      <workItem from="1693826340654" duration="443000" />
+      <workItem from="1693827801118" duration="40000" />
+      <workItem from="1693828301272" duration="24000" />
+      <workItem from="1693828501258" duration="22000" />
+      <workItem from="1693828577463" duration="63000" />
+      <workItem from="1693828701485" duration="9000" />
+      <workItem from="1693828768354" duration="6000" />
+      <workItem from="1693828897917" duration="11000" />
+      <workItem from="1693829061636" duration="10000" />
+      <workItem from="1693829699737" duration="13000" />
+      <workItem from="1693829766465" duration="26000" />
+      <workItem from="1693843716875" duration="347000" />
+      <workItem from="1693849944394" duration="27000" />
+      <workItem from="1693850027314" duration="27000" />
+      <workItem from="1693851131904" duration="40000" />
+      <workItem from="1693851200637" duration="102000" />
+      <workItem from="1693851336926" duration="38000" />
+      <workItem from="1693852017800" duration="14000" />
+      <workItem from="1693915734893" duration="481000" />
+      <workItem from="1693916228632" duration="71000" />
+      <workItem from="1693916313224" duration="103000" />
+      <workItem from="1693918145688" duration="33000" />
+      <workItem from="1693918194258" duration="72000" />
+      <workItem from="1693918671268" duration="42000" />
+      <workItem from="1693922067028" duration="87000" />
+      <workItem from="1693922892016" duration="144000" />
+      <workItem from="1693927992440" duration="79000" />
+      <workItem from="1693929849346" duration="15000" />
+      <workItem from="1693931536363" duration="58000" />
+      <workItem from="1693933416136" duration="1000" />
+      <workItem from="1694132515539" duration="77000" />
+      <workItem from="1694132925914" duration="6000" />
+      <workItem from="1694132964725" duration="9000" />
+      <workItem from="1694167357980" duration="2014000" />
+      <workItem from="1694177151263" duration="95000" />
+      <workItem from="1694179245762" duration="88000" />
+      <workItem from="1694244757183" duration="164000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
