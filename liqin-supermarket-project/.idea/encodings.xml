@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-content/liqin-supermarket-content-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-content/liqin-supermarket-content-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-content/liqin-supermarket-content-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-content/liqin-supermarket-content-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-content/liqin-supermarket-content-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-content/liqin-supermarket-content-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-content/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-content/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-htmlpage/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-htmlpage/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-htmlpage/src/main/resources/static/index.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-media/liqin-supermarket-media-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-media/liqin-supermarket-media-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-media/liqin-supermarket-media-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-media/liqin-supermarket-media-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-media/liqin-supermarket-media-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-media/liqin-supermarket-media-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-media/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-media/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liqin-supermarket-parent/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

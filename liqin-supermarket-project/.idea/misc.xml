@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/liqin-supermarket-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/liqin-supermarket-base/pom.xml" />
+        <option value="$PROJECT_DIR$/liqin-supermarket-content/pom.xml" />
+        <option value="$PROJECT_DIR$/liqin-supermarket-content/liqin-supermarket-content-api/pom.xml" />
+        <option value="$PROJECT_DIR$/liqin-supermarket-content/liqin-supermarket-content-model/pom.xml" />
+        <option value="$PROJECT_DIR$/liqin-supermarket-content/liqin-supermarket-content-service/pom.xml" />
+        <option value="$PROJECT_DIR$/liqin-supermarket-htmlpage/pom.xml" />
+        <option value="$PROJECT_DIR$/liqin-supermarket-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/liqin-supermarket-media/pom.xml" />
+        <option value="$PROJECT_DIR$/liqin-supermarket-media/liqin-supermarket-media-api/pom.xml" />
+        <option value="$PROJECT_DIR$/liqin-supermarket-media/liqin-supermarket-media-model/pom.xml" />
+        <option value="$PROJECT_DIR$/liqin-supermarket-media/liqin-supermarket-media-service/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/liqin-supermarket-media/xuecheng-plus-media-api/pom.xml" />
+        <option value="$PROJECT_DIR$/liqin-supermarket-media/xuecheng-plus-media-model/pom.xml" />
+        <option value="$PROJECT_DIR$/liqin-supermarket-media/xuecheng-plus-media-service/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

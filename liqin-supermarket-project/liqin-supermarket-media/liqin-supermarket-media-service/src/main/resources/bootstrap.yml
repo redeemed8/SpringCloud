@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: media-service
+  cloud:
+    nacos:
+      server-addr: 192.168.110.1:8848
+      discovery:
+        namespace: ${spring.profiles.active}
+        group: liqin-supermarket-project
+      config:
+        namespace: ${spring.profiles.active}
+        group: liqin-supermarket-project
+        file-extension: yaml
+        refresh-enabled: true
+
+  #profiles默认为dev
+  profiles:
+    active: dev
+
+
+

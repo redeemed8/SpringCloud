@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for liqin-supermarket-gateway" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../Maven3.5.4/apache-maven-3.5.4/mvn_repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
+        </processorPath>
+        <module name="liqin-supermarket-media-model" />
+        <module name="liqin-supermarket-gateway" />
+        <module name="liqin-supermarket-content-api" />
+        <module name="liqin-supermarket-content-model" />
+        <module name="liqin-supermarket-content-service" />
+        <module name="liqin-supermarket-media-api" />
+        <module name="liqin-supermarket-media-service" />
+        <module name="liqin-supermarket-base" />
+        <module name="liqin-supermarket-htmlpage" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="liqin-supermarket-content-service (1)" target="1.8" />
+      <module name="liqin-supermarket-content-service (2)" target="1.8" />
+      <module name="liqin-supermarket-generator" target="1.8" />
+      <module name="liqin-supermarket-project" target="1.8" />
+      <module name="xuecheng-plus-base" target="1.8" />
+      <module name="xuecheng-plus-content-api" target="1.8" />
+      <module name="xuecheng-plus-generator" target="1.8" />
+      <module name="xuecheng-plus-media" target="1.5" />
+      <module name="xuecheng-plus-media-api" target="1.5" />
+      <module name="xuecheng-plus-media-model" target="1.5" />
+      <module name="xuecheng-plus-media-service" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

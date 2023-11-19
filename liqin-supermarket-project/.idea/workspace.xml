@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f95450c-900d-4b7e-b761-c56f4ebcd956" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Maven3.5.4/apache-maven-3.5.4" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2VtCzqTJaU2MijyRLVSZn1LeZZP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/protjct/jjj/liqin-supermarket-project/liqin-supermarket-content/liqin-supermarket-content-api/src/main/resources/templates/photo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.25747126&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6c9971d95176ec90f60485721284cef7&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言&quot;: [
+      &quot;MySQL&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\protjct\jjj\liqin-supermarket-project\liqin-supermarket-content\liqin-supermarket-content-api\src\main\resources\templates\photo" />
+      <recent name="D:\protjct\jjj\liqin-supermarket-project\liqin-supermarket-content\liqin-supermarket-content-api\src\main\resources\static" />
+      <recent name="D:\protjct\jjj\liqin-supermarket-project\liqin-supermarket-content\liqin-supermarket-content-api\src\main\resources\templates" />
+      <recent name="D:\protjct\jjj\liqin-supermarket-project\liqin-supermarket-gateway\src\main\resources\templates" />
+      <recent name="D:\protjct\jjj\liqin-supermarket-project\liqin-supermarket-media\liqin-supermarket-media-service\src\main\resources\com\jchhh\media\mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\protjct\jjj\liqin-supermarket-project\liqin-supermarket-htmlpage\src\main\resources\static" />
+      <recent name="D:\protjct\jjj\liqin-supermarket-project\liqin-supermarket-htmlpage\src\main\resources\static\photo" />
+      <recent name="D:\protjct\jjj\liqin-supermarket-project\liqin-supermarket-content\liqin-supermarket-content-service\src\main\resources\com\jchhh\content\mapper" />
+      <recent name="D:\protjct\jjj\liqin-supermarket-project\liqin-supermarket-content\liqin-supermarket-content-service\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jchhh.media.mapper" />
+      <recent name="com.jchhh.media.model.pojo" />
+      <recent name="com.jchhh.media.service.jobhandler" />
+      <recent name="com.jchhh.content" />
+      <recent name="com.jchhh" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+        <option value="SwaggerCodegen" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="应用程序.test">
+    <configuration name="ExtensionUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jchhh.media.utils.ExtensionUtils" />
+      <module name="liqin-supermarket-media-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jchhh.media.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jchhh.test" />
+      <module name="liqin-supermarket-content-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jchhh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContentApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="liqin-supermarket-content-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jchhh.ContentApiApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jchhh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="liqin-supermarket-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jchhh.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jchhh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediaApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="liqin-supermarket-media-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jchhh.MediaApiApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jchhh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ContentApiApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.MediaApiApplication" />
+      <item itemvalue="应用程序.test" />
+      <item itemvalue="应用程序.ExtensionUtils" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.test" />
+        <item itemvalue="Spring Boot.ContentApiApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.MediaApiApplication" />
+        <item itemvalue="应用程序.ExtensionUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="5f95450c-900d-4b7e-b761-c56f4ebcd956" name="变更" comment="" />
+      <created>1695646254326</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695646254326</updated>
+      <workItem from="1695646255452" duration="2036000" />
+      <workItem from="1695649633955" duration="271000" />
+      <workItem from="1695649914074" duration="127000" />
+      <workItem from="1695650049568" duration="1402000" />
+      <workItem from="1695651456664" duration="27000" />
+      <workItem from="1695726492856" duration="8683000" />
+      <workItem from="1695736029453" duration="6000" />
+      <workItem from="1695898864297" duration="22560000" />
+      <workItem from="1695969228490" duration="1028000" />
+      <workItem from="1695970316160" duration="4774000" />
+      <workItem from="1695975151291" duration="27000" />
+      <workItem from="1695975185750" duration="7417000" />
+      <workItem from="1695987837440" duration="13497000" />
+      <workItem from="1696002901121" duration="1277000" />
+      <workItem from="1696043951338" duration="5581000" />
+      <workItem from="1696084950511" duration="9695000" />
+      <workItem from="1696152630378" duration="1408000" />
+      <workItem from="1696158713110" duration="1000" />
+      <workItem from="1696236801627" duration="1742000" />
+      <workItem from="1696248192632" duration="1781000" />
+      <workItem from="1696250012158" duration="6000" />
+      <workItem from="1696250028097" duration="2786000" />
+      <workItem from="1696252948537" duration="7546000" />
+      <workItem from="1696260984466" duration="3787000" />
+      <workItem from="1696314911703" duration="2403000" />
+      <workItem from="1696343303527" duration="7453000" />
+      <workItem from="1696420236504" duration="9577000" />
+      <workItem from="1696430540462" duration="168000" />
+      <workItem from="1696430719218" duration="294000" />
+      <workItem from="1696431339679" duration="49000" />
+      <workItem from="1696494799444" duration="9639000" />
+      <workItem from="1696586751609" duration="8110000" />
+      <workItem from="1696600587357" duration="5746000" />
+      <workItem from="1696654428925" duration="99000" />
+      <workItem from="1696679303027" duration="9132000" />
+      <workItem from="1696754566180" duration="19870000" />
+      <workItem from="1696826305871" duration="21352000" />
+      <workItem from="1696860980051" duration="2782000" />
+      <workItem from="1696919965639" duration="1334000" />
+      <workItem from="1696922956258" duration="9336000" />
+      <workItem from="1696939814490" duration="765000" />
+      <workItem from="1697009750552" duration="8757000" />
+      <workItem from="1697105618887" duration="3256000" />
+      <workItem from="1697181330656" duration="12082000" />
+      <workItem from="1697260971502" duration="4852000" />
+      <workItem from="1697437648159" duration="31000" />
+      <workItem from="1697542728887" duration="5417000" />
+      <workItem from="1697719946040" duration="1017000" />
+      <workItem from="1697782011182" duration="4000" />
+      <workItem from="1697789056023" duration="55000" />
+      <workItem from="1697801885330" duration="21000" />
+      <workItem from="1697873766768" duration="27000" />
+      <workItem from="1697873853006" duration="30000" />
+      <workItem from="1697950607284" duration="1671000" />
+      <workItem from="1698138252191" duration="589000" />
+      <workItem from="1698651697443" duration="1576000" />
+      <workItem from="1699440110179" duration="2000" />
+      <workItem from="1700055550089" duration="39000" />
+      <workItem from="1700287094796" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.yaml.snakeyaml.error.YAMLException" package="org.yaml.snakeyaml.error" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.web.multipart.MaxUploadSizeExceededException" package="org.springframework.web.multipart" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jchhh.media.mapper.ItemplanMediaMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jchhh.media.model.pojo.ItemplanMedia">
+        <id column="id" property="id"/>
+        <result column="media_id" property="mediaId"/>
+        <result column="itemplan_id" property="itemplanId"/>
+        <result column="business_id" property="businessId"/>
+        <result column="media_fileName" property="mediaFileName"/>
+        <result column="create_date" property="createDate"/>
+        <result column="create_people" property="createPeople"/>
+        <result column="change_people" property="changePeople"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, mediaId, itemplanId, businessId, mediaFileName, createDate, createPeople,changePeople
+    </sql>
+
+</mapper>

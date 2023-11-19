@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      server-addr: 192.168.110.1:8848
+      discovery:
+        namespace: dev
+        group: liqin-supermarket-project
+      config:
+        namespace: dev
+        group: liqin-supermarket-project
+        file-extension: yaml
+        refresh-enabled: true
+
+  profiles:
+    active: dev

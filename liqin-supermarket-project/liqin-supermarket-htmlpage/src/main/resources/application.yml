@@ -1,0 +1,26 @@
+server:
+  port: 8888
+  #热部署
+spring:
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true  #设置开启热部署
+      additional-paths: resources/**,templates/**,static/**  #重启目录spring:
+  application:
+    name: html-page
+  cloud:
+    nacos:
+      server-addr: 192.168.110.1:8848
+      discovery:            # 服务注册的相关配置
+        namespace: dev
+        group: liqin-supermarket-project
+      config:               # 配置文相关配置
+        namespace: dev
+        group: liqin-supermarket-project
+        file-extension: yaml
+        refresh-enabled: true
+  profiles:
+    active: dev      # 环境名
+

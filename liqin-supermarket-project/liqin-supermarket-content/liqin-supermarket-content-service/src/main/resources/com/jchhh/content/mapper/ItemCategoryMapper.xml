@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jchhh.content.mapper.ItemCategoryMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jchhh.content.model.pojo.ItemCategory">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="label" property="label"/>
+        <result column="parent_id" property="parentId"/>
+        <result column="allow_show" property="allowShow"/>
+        <result column="orderby" property="orderby"/>
+        <result column="be_leaf" property="beLeaf"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, name, label, parentId, allowShow, orderby, beLeaf
+    </sql>
+
+    <!--    List<ItemCategoryTreeDto> selectTreeNodes(String id);    -->
+    <select id="selectTreeNodes" parameterType="string" resultType="com.jchhh.content.model.dto.ItemCategoryTreeDto">
+        WITH RECURSIVE t1 AS
+                           (select *
+                            from item_category
+                            where id = #{id}
+                            UNION ALL
+                            select t2.*
+                            from item_category t2
+                                     inner join t1 on t1.id = t2.parent_id)
+        SELECT *
+        FROM t1
+        ORDER BY t1.id, t1.orderby
+    </select>
+
+</mapper>

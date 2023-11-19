@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="photo/item.ico" rel="shortcut icon">
+    <title>item-management</title>
+</head>
+
+<body background="photo/bg.jpg">
+
+<h1>##=-+-+- Welcome to item-management html -+-+-=##</h1><br>
+<h2>## <a href="http://www.51liqin.cn:5421/content/testping">测试网络</a> ##</h2><br>
+
+<h4># -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-查询商品-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #</h4>
+<form name='itemListForm' action="http://www.51liqin.cn:5421/content/item/list/child" method="post">
+    <label>
+        页码:<input type='number' name='pageNo' required/>
+        容量:<input type='number' name='pageSize' required/><br>
+        <h4>*** ↓过滤条件↓ ***</h4>
+        商品名称:<input type='text' name='itemName'/>
+        商品单价:<input type='number' name='unitPrice'/>
+        是否优惠:
+        <select name="discount">
+            <option value=-1>- - - 无选择 - - -</option>
+            <option value=0>无优惠</option>
+            <option value=1>优惠</option>
+        </select>
+        <input type="submit" value=" 查询商品列表 " style="margin-left:15px;">
+    </label>
+</form>
+<h4># -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #</h4><br>
+
+<h4># -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-分区分类-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #</h4>
+<h3>______________________________________
+    <a href="http://www.51liqin.cn:5421/content/item-category/tree-nodes">查询所有分区分类</a>
+    ______________________________________
+</h3>
+<h4># -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #</h4><br>
+
+<h4># -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-新建商品-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #</h4>
+<form name='createItemForm' action="http://www.51liqin.cn:5421/content/newbuilt/item/child" method="post">
+    <label>
+        商品代码:<input type='text' name='itemId' required/>
+        商品名称:<input type='text' name='itemName' required/><br>
+
+        商品单价:<input type='number' name='unitPrice' required/>
+        商品库存:<input type='number' name='stock' required/>
+        是否优惠:
+        <select name="discount">
+            <option value=-1>- - - 无选择 - - -</option>
+            <option value=0>无优惠</option>
+            <option value=1>优惠</option>
+        </select>
+        <input type="submit" value=" 执行新建商品 " style="margin-left:15px;">
+    </label>
+</form>
+<h4># -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #</h4><br>
+
+<h4># -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-更新商品-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #</h4>
+<form name='updateItemForm' action="http://www.51liqin.cn:5421/content/update/item/child" method="post">
+    <label>
+        <input type="hidden" name="_method" value="put"/>
+        要修改的商品的代码:<input type='text' name='toQueryItemId' required/><br>
+        <h4>*** ↓修改后的值为(选填, 但至少一个)↓ ***</h4>
+        商品代码:<input type='text' name='itemId'/>
+        商品名称:<input type='text' name='itemName'/><br>
+
+        商品单价:<input type='number' name='unitPrice'/>
+        商品库存:<input type='number' name='stock'/>
+        是否优惠:
+        <select name="discount">
+            <option value=-1>- - - 无选择 - - -</option>
+            <option value=0>无优惠</option>
+            <option value=1>优惠</option>
+        </select>
+        <input type="submit" value=" 执行更新商品 " style="margin-left:15px;">
+    </label>
+</form>
+<h4># -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #</h4><br>
+
+<h4># -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-删除商品-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #</h4>
+<form name='deleteItemForm' action="http://www.51liqin.cn:5421/content/delete/item" method="post">
+    <label>
+        <input type="hidden" name="_method" value="delete"/>
+        要删除的商品的代码:<input type='text' name='itemId' required/>
+        <input type="submit" value=" 执行删除商品 " style="margin-left:15px;">
+    </label>
+</form>
+<h4># -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #</h4><br>
+
+<br><br><br><br><br><br><br><br>
+
+
+</body>
+
+</html>
+

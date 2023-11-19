@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: content-service
+  cloud:
+    nacos:
+      server-addr: 192.168.110.1:8848
+      config:
+        namespace: dev
+        group: liqin-supermarket-project
+        file-extension: yaml
+        refresh-enabled: true
+  profiles:
+    active: dev
+
+

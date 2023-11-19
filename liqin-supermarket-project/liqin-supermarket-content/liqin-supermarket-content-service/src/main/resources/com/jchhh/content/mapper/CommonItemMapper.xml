@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jchhh.content.mapper.CommonItemMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jchhh.content.model.pojo.CommonItem">
+        <id column="id" property="id" />
+        <result column="item_id" property="itemId" />
+        <result column="item_name" property="itemName" />
+        <result column="unit_price" property="unitPrice" />
+        <result column="stock" property="stock" />
+        <result column="last_updated" property="lastUpdated" />
+        <result column="discount" property="discount" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, itemId, itemName, unitPrice, stock, lastUpdated, discount
+    </sql>
+
+</mapper>

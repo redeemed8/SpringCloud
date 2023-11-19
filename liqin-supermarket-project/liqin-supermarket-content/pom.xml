@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.jchhh</groupId>
+        <artifactId>liqin-supermarket-parent</artifactId>
+        <version>1.0</version>
+        <relativePath>../liqin-supermarket-parent</relativePath>
+    </parent>
+    <packaging>pom</packaging>
+    <artifactId>liqin-supermarket-content</artifactId>
+    <modules>
+        <module>liqin-supermarket-content-api</module>
+        <module>liqin-supermarket-content-model</module>
+        <module>liqin-supermarket-content-service</module>
+    </modules>
+
+
+</project>

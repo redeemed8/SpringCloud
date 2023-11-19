@@ -1,0 +1,47 @@
+#server:
+#  servlet:
+#    context-path: /media
+#  port: 10012
+spring:
+  application:
+    name: media-api
+  cloud:
+    nacos:
+      server-addr: 192.168.110.1:8848
+      discovery:
+        namespace: ${spring.profiles.active}
+        group: liqin-supermarket-project
+      config:
+        namespace: ${spring.profiles.active}
+        group: liqin-supermarket-project
+        file-extension: yaml
+        refresh-enabled: true
+        extension-configs:
+          - data-id: media-service-${spring.profiles.active}.yaml
+            group: liqin-supermarket-project
+            refresh: true
+        shared-configs:
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: liqin-supermarket-common
+            refresh: true
+  servlet:
+    multipart:
+      max-file-size: 500MB        # 设置单个文件最大大小为500MB
+      max-request-size: 1000MB    # 设置多个文件大小为1000MB
+  profiles:
+    active: dev
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1:3306/liqin_supermarket?serverTimezone=UTC&userUnicode=true&useSSL=false
+#    username: root
+#    password: 123456
+
+mybatis-plus:
+  type-aliases-package: com.jchhh.content.api # 别名扫描包
+  global-config:
+    db-config:
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+

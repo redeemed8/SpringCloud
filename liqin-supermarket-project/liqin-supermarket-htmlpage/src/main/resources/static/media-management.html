@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="photo/media.ico" rel="shortcut icon">
+    <title>media-management</title>
+</head>
+
+<body background="photo/bg.jpg">
+
+<h1>##=-+-+- Welcome to media-management html -+-+-=##</h1><br>
+<h2>## <a href="http://www.51liqin.cn:5421/media/testping">测试网络</a> ##</h2><br>
+
+<h4># -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-上传图片-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #</h4>
+<form name='uploadPhotoForm' action="http://www.51liqin.cn:5421/media/upload/itemfile" method="post"
+      enctype="multipart/form-data">
+    ______________________________<input type="file" name="filedata" style="width: 250px; height: 22px;"/>
+    <button type="submit" style="width: 100px; height: 22px;">上传</button>
+    ____________________________
+</form>
+<h4># -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #</h4><br>
+
+<h4># -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-上传视频-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #</h4>
+<form name='uploadVideoForm' action="http://www.51liqin.cn:5421/media/upload/video" method="post"
+      enctype="multipart/form-data">
+    _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_<input type="file" name="file" style="width: 250px; height: 22px;"/>
+    <button type="submit" style="width: 100px; height: 22px;">上传</button>
+    _-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+</form>
+<h4># -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #</h4><br>
+
+<h4># -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-绑定商品-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #</h4>
+<form name='bindItem' action="http://www.51liqin.cn:5421/media/itemplan/association/media/child" method="post">
+    <label>
+        图片/视频代码:<input type='text' name='mediaId' required/>
+        图片/视频名称:<input type='text' name='mediaFileName' required/><br><br>
+        绑定的商品代码:<input type='number' name='itemplanId' required/>
+        <input type="submit" value=" 进行绑定 " style="margin-left:400px;">
+    </label>
+</form>
+<h4># -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #</h4><br>
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,60 @@
+#server:
+#  servlet:
+#    context-path: /content
+#  port: 10011
+spring:
+  application:
+    name: content-api   # 服务名   content-api-dev.yaml
+  cloud:
+    nacos:
+      server-addr: 192.168.110.1:8848
+      discovery: # 服务注册的相关配置
+        namespace: dev
+        group: liqin-supermarket-project
+      config: # 配置文相关配置
+        namespace: dev
+        group: liqin-supermarket-project
+        file-extension: yaml
+        refresh-enabled: true
+        extension-configs:
+          - data-id: content-service-${spring.profiles.active}.yaml
+            group: liqin-supermarket-project
+            refresh: true
+        shared-configs:
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: liqin-supermarket-common
+            refresh: true
+          - data-id: freemarker-config-${spring.profiles.active}.yaml
+            group: liqin-supermarket-common
+            refresh: true
+
+  profiles:
+    active: dev      # 环境名
+  #  datasource:
+  #    driver-class-name: com.mysql.cj.jdbc.Driver
+  #    url: jdbc:mysql://127.0.0.1:3306/liqin_supermarket?serverTimezone=UTC&userUnicode=true&useSSL=false
+  #    username: root
+  #    password: 123456
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+
+# 日志文件配置路径
+#logging:
+#  config: classpath:log4j2-dev.xml
+
+mybatis-plus:
+  type-aliases-package: com.jchhh.content.api # 别名扫描包
+  global-config:
+    db-config:
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+#swagger:
+#  title: "liqin超市商品管理系统"
+#  description: "商品管理系统对商品相关信息进行管理"
+#  base-package: com.jchhh.content
+#  enabled: true
+#  version: 1.0.0
